@@ -1,6 +1,8 @@
 example='Developer'
 print(example[0])
 print(example[-1])
-print(example[3:8])
+name=(len(example)//2)
+print(name)
+print(example[4::])
 print(example[::-1])
-print(example[1:8:2])
+print(example[1::2])
